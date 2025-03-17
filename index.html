@@ -196,9 +196,9 @@
             const box = document.getElementById('chatBox');
             const btn = document.querySelector('.chat-button');
 
-            if (open && !box.contains(e.target) && !btn.contains(e.target)) {
+            if (opened && !box.contains(e.target) && !btn.contains(e.target)) {
                 box.style.display = 'none';
-                open = false;
+                opened = false;
             }
         });
     </script>
